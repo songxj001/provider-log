@@ -28,6 +28,7 @@ public class LogController {
 
     @RequestMapping(value = "test")
     public String test(){
+        System.out.println(content);
         return content;
     }
 
